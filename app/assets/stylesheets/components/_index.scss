@@ -9,7 +9,7 @@
 @import "tags";
 
 .footer {
-  background: #F4F4F4;
+  background: #dddddd;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -33,4 +33,18 @@
 }
 .footer .fa-heart {
   color: #D23333;
+}
+ // Defining a variable
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+   text-align: center;
+   h1 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   h2 {
+    font-size: 22px;
+    color: #c0c0c0;
+  }
 }
